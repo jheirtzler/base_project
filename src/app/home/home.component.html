@@ -9,62 +9,18 @@
   </div>
 </div>
 
-<div class="home-box">
-  <div class="home-card">
-    <h1 class="home-card-header">Fast</h1>
-    <img
-      class="home-card-image"
-      src="https://res.cloudinary.com/dnfawl8xp/image/upload/v1585595007/ken-reid-fUknnVKe3wA-unsplash_1_usbfih.jpg"
-      alt="dog"
-    />
-    <p class="home-card-content">
-      <b>Faster websites.</b>
-      Optimize your site with prerendering and global delivery.
-    </p>
-  </div>
+<div class="contact">
+  <h2>We can't wait to hear from you!</h2>
+  <div class="form-box"></div>
 </div>
 
-<div class="home-box">
-  <div class="home-card">
-    <h1 class="home-card-header">Fast</h1>
-    <img
-      class="home-card-image"
-      src="https://res.cloudinary.com/dnfawl8xp/image/upload/v1585595007/david-manning-E9VhlOb9gmk-unsplash_1_rvni2o.jpg"
-      alt="dog"
-    />
-    <p class="home-card-content">
-      <b>Faster websites.</b>
-      Optimize your site with prerendering and global delivery.
-    </p>
-  </div>
-</div>
-
-<div class="home-box">
-  <div class="home-card">
-    <h1 class="home-card-header">Fast</h1>
-    <img
-      class="home-card-image"
-      src="https://res.cloudinary.com/dnfawl8xp/image/upload/v1585595007/kevin-bree-q5FGsXNFtbk-unsplash_1_ya8bpq.jpg"
-      alt="dog"
-    />
-    <p class="home-card-content">
-      <b>Faster websites.</b>
-      Optimize your site with prerendering and global delivery.
-    </p>
-  </div>
-</div>
-
-<div class="home-box">
-  <div class="home-card">
-    <h1 class="home-card-header">Fast</h1>
-    <img
-      class="home-card-image"
-      src="https://res.cloudinary.com/dnfawl8xp/image/upload/v1585595007/jason-murphy-k8lM_bBb938-unsplash_1_akc1xj.jpg"
-      alt="dog"
-    />
-    <p class="home-card-content">
-      <b>Faster websites.</b>
-      Optimize your site with prerendering and global delivery.
-    </p>
-  </div>
-</div>
+<form name="contact-form" class="contact-form" data-netlify="true" method="POST" action="/success">
+  <label> name: </label>
+  <input type="text" name="name" class="input" />
+  <label> email: </label>
+  <input type="email" name="email" class="input" required />
+  <label> message: </label>
+  <textarea name="message" class="textarea" placeholder="message"> </textarea>
+  <button type="submit">Submit</button>
+  <input type="hidden" name="form-name" value="contact-form" />
+</form>
